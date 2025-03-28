@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3503529135107488195
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 170463902198587970, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_Name
+      value: StrayBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 943878204014995572, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: team
+      value: 
+      objectReference: {fileID: 714363213165744600}
+    - target: {fileID: 3530593760998731420, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.835
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530593760998731420, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530593760998731420, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530593760998731420, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530593760998731420, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530593760998731420, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530593760998731420, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530593760998731420, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530593760998731420, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530593760998731420, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677572905490227758, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8929393329903156419, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 170463902198587970, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 714363213165744600}
+  m_SourcePrefab: {fileID: 100100000, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+--- !u!1 &3657649861572090753 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 170463902198587970, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+  m_PrefabInstance: {fileID: 3503529135107488195}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &714363213165744600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3657649861572090753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c0eb8fdeafa564f97211e633c41a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  team: 0
+  adjustRotation: 1
+  playerTeamColor: {r: 0, g: 0, b: 1, a: 1}
+  enemyTeamColor: {r: 1, g: 0, b: 0, a: 1}
+  spriteRenderer: {fileID: 6421382712075783086}
+  shotDestroyVFX: {fileID: 7635548056659571214, guid: 18430e73a2abf71439d7038fba4148d8, type: 3}
+  stry_speed: 7
+  stry_damage: 10
+--- !u!212 &6421382712075783086 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7602740970035917421, guid: cbd5a8d17b8a7bd4791dc1560f30c2d9, type: 3}
+  m_PrefabInstance: {fileID: 3503529135107488195}
+  m_PrefabAsset: {fileID: 0}
