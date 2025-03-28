@@ -1,5 +1,3 @@
-# **Game ReadMe**
-
 ## **Overview**
 This videogame is a **2D pixel-art roguelike** set in an **Egyptian desert temple** and was created using the **Unity Engine** as part of a university project. The player navigates through **randomly generated levels**, fights against **waves of enemies**, recruits defeated foes, and buys upgrades to build and strengthen their own team. The goal is to **master all rooms and defeat the final boss**.
 
